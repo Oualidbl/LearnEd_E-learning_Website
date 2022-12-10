@@ -97,7 +97,8 @@ nav ul li a:hover {
 	background: #fff;
 }
 .logo img{
-	width: 120px;
+	width: 100px;
+	height: 100px;
 	cursor: pointer;
 	transition: all 1s;
 }
