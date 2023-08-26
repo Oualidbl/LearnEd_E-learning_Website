@@ -929,3 +929,48 @@ footer .btn:hover {
 		width: 100%;
 	}
 }
+
+
+
+/* Ajoutez ces règles CSS pour rendre le site réactif */
+
+/* Pour les écrans de largeur maximale de 960px */
+@media screen and (max-width: 960px) {
+  header {
+    height: auto; /* Réduisez la hauteur de l'en-tête pour économiser de l'espace */
+  }
+  nav {
+    flex-direction: column; /* Empilez les éléments de navigation */
+  }
+  nav ul {
+    flex-direction: column; /* Empilez les éléments de la liste de navigation */
+  }
+  .logo {
+    margin-left: 0; /* Centrez le logo */
+  }
+  .menu {
+    display: block; /* Affichez le bouton de menu */
+  }
+  .head-container {
+    margin-top: 100px; /* Réduisez l'espace au-dessus du contenu */
+  }
+  .quote {
+    text-align: center; /* Centrez le contenu de la citation */
+  }
+  .svg-image img {
+    width: 100%; /* Redimensionnez l'image SVG */
+  }
+}
+
+/* Pour les écrans de largeur maximale de 700px */
+@media screen and (max-width: 700px) {
+  .footer-container {
+    max-width: 100%; /* Ajustez la largeur du pied de page */
+  }
+  .logo {
+    margin-left: 0; /* Centrez le logo dans le pied de page */
+  }
+  .svg-image img {
+    margin: 20px auto; /* Centrez l'image SVG dans les écrans plus petits */
+  }
+}
