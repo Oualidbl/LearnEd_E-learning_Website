@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body,
+p,
+h1, h2, h3, h4, h5, h6,
+a,
+button {
+    font-family: 'Open Sans', sans-serif;
+}
+p {
+    font-style: normal;
+}
+
 
 * {
 	box-sizing: border-box;
