@@ -271,7 +271,7 @@ a, button {
 	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("images/extra/b1.jpg");
 	background-size: cover;
 	background-attachment: fixed;
-	font-family: cursive;
+	font-family: normal;
 	z-index: -9;
 }
 .smbox {
@@ -300,7 +300,7 @@ a, button {
 .smbox .det {
 	font-size: 20px;
 	color: #272529;
-	font-family: cursive;
+	font-family: normal;
 }
 
 /*Title*/
