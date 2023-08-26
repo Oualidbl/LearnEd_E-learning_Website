@@ -272,6 +272,7 @@ a, button {
 	background-size: cover;
 	background-attachment: fixed;
 	font-family: normal;
+	font-family: 'Open Sans', sans-serif;
 	z-index: -9;
 }
 .smbox {
@@ -301,6 +302,7 @@ a, button {
 	font-size: 20px;
 	color: #272529;
 	font-family: normal;
+	font-family: 'Open Sans', sans-serif;
 }
 
 /*Title*/
@@ -382,6 +384,7 @@ a, button {
 	font-size: 15px;
 	color: #272529;
 	font-family: normal;
+	font-family: 'Open Sans', sans-serif;
 	text-decoration: none;
 }
 .cbox .det a:hover {
